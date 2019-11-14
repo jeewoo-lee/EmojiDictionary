@@ -12,6 +12,7 @@
 		7A64AC4D237CEA9B0067FC9D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7A64AC4B237CEA9B0067FC9D /* Main.storyboard */; };
 		7A64AC4F237CEA9D0067FC9D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7A64AC4E237CEA9D0067FC9D /* Assets.xcassets */; };
 		7A64AC52237CEA9D0067FC9D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7A64AC50237CEA9D0067FC9D /* LaunchScreen.storyboard */; };
+		7A64AC5A237CEBC40067FC9D /* Emoji.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A64AC59237CEBC40067FC9D /* Emoji.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		7A64AC4E237CEA9D0067FC9D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7A64AC51237CEA9D0067FC9D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7A64AC53237CEA9D0067FC9D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7A64AC59237CEBC40067FC9D /* Emoji.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Emoji.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +62,7 @@
 				7A64AC4E237CEA9D0067FC9D /* Assets.xcassets */,
 				7A64AC50237CEA9D0067FC9D /* LaunchScreen.storyboard */,
 				7A64AC53237CEA9D0067FC9D /* Info.plist */,
+				7A64AC59237CEBC40067FC9D /* Emoji.swift */,
 			);
 			path = EmojiDictionary;
 			sourceTree = "<group>";
@@ -135,6 +138,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7A64AC5A237CEBC40067FC9D /* Emoji.swift in Sources */,
 				7A64AC46237CEA9B0067FC9D /* AppDelegate.swift in Sources */,
 				7A64AC48237CEA9B0067FC9D /* SceneDelegate.swift in Sources */,
 			);
